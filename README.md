@@ -152,7 +152,7 @@ XGBRegressor(
 | MAE | 0.2059 |
 | RMSE | 0.2515 |
 
-> 💡 Linear Regression outperformed XGBoost here because the dataset is small (545 rows) with mostly binary features — a simpler model is the better fit.
+> 💡 Linear Regression outperformed XGBoost here because the dataset is small (545 rows) with mostly binary features a simpler model is the better fit.
 
 ### Why Log Transformation on Price?
 House prices are right-skewed with large value gaps. Applying `np.log()` to the target:
