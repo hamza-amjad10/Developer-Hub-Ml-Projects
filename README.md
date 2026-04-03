@@ -45,7 +45,7 @@ pandas, matplotlib, seaborn
 
 **Objective:** Use historical stock data to predict the next day's closing price.
 
-**Dataset:** Apple (AAPL) stock data via `yfinance` — Jan 2024 to Jan 2025
+**Dataset:** Apple (AAPL) stock data via `yfinance` Jan 2024 to Jan 2025
 
 ### What Was Done
 - Downloaded historical OHLCV data using `yf.download()`
@@ -207,7 +207,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn xgboost yfinance imbala
 - Log transformation on skewed targets improves linear model performance
 - SMOTE helps balance imbalanced classification datasets
 - Complex models (XGBoost) don't always beat simpler ones on small datasets
-- Chronological splitting is essential for time-series data — never use random shuffle
+- Chronological splitting is essential for time-series data never use random shuffle
 - StandardScaler should be fit only on training data, then applied to test data
 
 ---
